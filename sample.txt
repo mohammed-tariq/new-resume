@@ -1,0 +1,100 @@
+Before we begin
+
+A loud shout i.e,.
+
+* This is for beginners
+* Little to no CSS today!!!!!.... && without CSS only HTML is ugly
+* We will be focusing on HTML 5 only
+* Examples
+* And most importantly be patient
+
+----------------------------------------------------------------------------
+
+What on earth is HTML????
+
+* Hyper Text Markup Language 
+* Not a Programing Language
+* Markup language for creating webpages/documents
+* Building blocks of web development
+* It strictly presentational
+
+-------------------------------------------------------------------------------
+
+What we need to start ???..
+
+** Browser-- Google Chrome(recommended) You an aslo use Mozilla, Safari, MicroSoft Edge
+** Code Editor --- VS Code(recommended) Atom, sublime, webstorm
+
+----------------------------------------------------------------------------------
+
+Creating a HTML file!!
+ 
+** Does not need a server
+** File must end with a .html extension
+** Runs in Browser
+** index.html is a root/home page of a website
+
+----------------------------------------------------------------------------------------
+
+Tag Syntax
+
+<tagname>content</tagname>
+<h1>Aboutus</h1>
+<p>this is a paragraph</p>
+<br />(self closing)
+<br> fine in HTML5
+
+-------------------------------------------------------------------------------------------
+
+HTML Page Structure
+
+<html>
+---------------------------------
+  <head>
+     <title>Page Title</title>
+  </head>
+----------------------------------
+  <body>
+     <h1>Hello</h1>
+     <p>this is a paragraph</p>
+  </body>
+----------------------------------
+</html>
+
+-------------------------------------------------------------------------------------------------
+
+Inline and Block Elements
+
+** Inline Elements
+-- Do not start with new line
+-- Take only necessary width
+Eg: <span> <img> <a> 
+
+** Block Elements
+
+-- Start on new line
+-- Take full width available
+Eg: <div> <h1-h6> <p> <form>
+
+------------------------------------------------------------------------------------------------------
+
+Tag Attributes
+
+<tagname attributename="attributevalue">content</tagname>
+
+Eg: <h1 title="My Company">About us</h1>
+
+--------------------------------------------------------------------------------------------------------
+
+
+HTML 5 schemantic tags
+
+<header></header>
+<footer></footer>
+<aside></aside>
+<main></main>
+<article></article>
+<nav></nav>
+<section></section>
+
+structuirng of the page.

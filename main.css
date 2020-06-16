@@ -1,0 +1,182 @@
+body{
+  background-image: linear-gradient(to right, #b3ffe0 , #ff1a1a);
+  width: 100%;
+}
+
+
+
+header{
+    text-align: center;
+}
+header h1{
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+    color: darkslategrey;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+#head{
+    width:100%;
+    line-height: 1.7;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 500;
+   
+}
+
+hr{
+    width: 70%;
+    text-align: center;
+}
+
+#me{
+	display:block;
+	text-align:center;
+	position:relative;
+	float:right;
+	margin:100px;
+	width:300px;
+	height:250px;
+	
+
+} 
+
+.overlay {
+  position: absolute;
+  margin:0;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+#me:hover .overlay {
+  opacity: 0.8;
+}
+
+
+.text {
+  color: white;
+  font-size: 18px;
+  font-style:italic;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.image{
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+}
+#edu{
+    padding: 50px;
+    height: 350px;
+    width: 60%;
+}
+
+table thead{
+    background-color: rgb(186, 186, 216);
+}
+
+table{
+    background-color: rgb(177, 206, 207);
+}
+
+table th, table td{
+    border: 1px solid rgb(48, 26, 26);
+    padding: 8px;
+}
+
+table a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+#project{
+position: relative;
+width: 100%;
+height: 350px;
+}
+
+#project h4{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#project p{
+    font-family: monospace;
+    font-style: italic;
+}
+
+#div1 , #div2 , #div3{
+    background-image: linear-gradient(to right, #9ad1bb , #e76464);
+    width:30%;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;;
+    height: 230px;
+    text-align: center;
+    float:left;
+  }
+
+  #div1:hover, #div2:hover, #div3:hover
+    {
+      box-shadow: 5px 5px gray;
+    }
+
+#project button{
+        width: 150px;
+        height: 40px;
+        background-color: rgb(122, 187, 122);
+        box-shadow: 2px 2px gray;
+    }
+
+#project button:hover{
+        background-color: rgb(98, 156, 214);
+        box-shadow: 5px 5px gray;
+    }
+    
+ #skill {
+     width: 100%;
+ }
+
+ #skill img{
+     width:150px;
+     height:150px;
+     margin-right: 60px;
+ }
+
+
+ #train li{
+     font-size: 16px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-transform: capitalize;
+ }
+ #train a{
+     text-decoration: none;
+     font-style: italic;
+     color: rgb(32, 112, 179);
+ }
+
+footer{
+    text-align: center;
+}
+
+footer img{
+    width:50px;
+    margin:30px;
+    height: 50px;
+}
